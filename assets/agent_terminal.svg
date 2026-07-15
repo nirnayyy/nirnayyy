@@ -13,13 +13,22 @@
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
+    <style>
+      @media (prefers-color-scheme: light) {
+        .window-frame { fill: #f9fafb !important; stroke: #e5e7eb !important; }
+        .window-header { fill: #f3f4f6 !important; }
+        .window-title { fill: #9ca3af !important; }
+        .text-line { fill: #1f2937 !important; }
+        .text-mute { fill: #6b7280 !important; }
+      }
+    </style>
   </defs>
 
   <!-- Terminal Window Shadow & Main Body -->
-  <rect x="15" y="15" width="570" height="290" rx="8" fill="#050706" stroke="#1f2937" stroke-width="1" filter="url(#shadow)" />
+  <rect x="15" y="15" width="570" height="290" rx="8" class="window-frame" fill="#050706" stroke="#1f2937" stroke-width="1" filter="url(#shadow)" />
 
   <!-- Window Header -->
-  <path d="M 15,23 A 8,8 0 0,1 23,15 L 577,15 A 8,8 0 0,1 585,23 L 585,45 L 15,45 Z" fill="#0f1712" stroke="#1f2937" stroke-dasharray="0 0 570 0" stroke-width="1" />
+  <path d="M 15,23 A 8,8 0 0,1 23,15 L 577,15 A 8,8 0 0,1 585,23 L 585,45 L 15,45 Z" class="window-header" fill="#0f1712" stroke="#1f2937" stroke-dasharray="0 0 570 0" stroke-width="1" />
 
   <!-- Window Controls (macOS style dots) -->
   <circle cx="35" cy="30" r="5" fill="#f87171" />
@@ -27,17 +36,17 @@
   <circle cx="67" cy="30" r="5" fill="#34d399" />
 
   <!-- Terminal Title -->
-  <text x="300" y="33" fill="#6b7280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">openenv-code-review — agent_runner.py</text>
+  <text x="300" y="33" class="window-title" fill="#6b7280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">openenv-code-review — agent_runner.py</text>
 
   <!-- Shell Prompt and output -->
   <g transform="translate(30, 70)" font-family="'Courier New', Courier, monospace" font-size="11.5" line-height="16" fill="#e5e7eb" xml:space="preserve">
     <!-- Command line -->
-    <text x="0" y="15" fill="#9ca3af">$ <tspan fill="#34d399">python</tspan> agent_runner.py --task=2 --env=CodeReview-v0</text>
+    <text x="0" y="15" class="text-line" fill="#9ca3af">$ <tspan fill="#34d399">python</tspan> agent_runner.py --task=2 --env=CodeReview-v0</text>
 
     <!-- Execution log -->
-    <text x="0" y="35" fill="#6b7280">[12:04:11] <tspan fill="#60a5fa">INFO</tspan>  Spinning up OpenEnv code-review environment...</text>
-    <text x="0" y="55" fill="#6b7280">[12:04:12] <tspan fill="#60a5fa">INFO</tspan>  Observation Space loaded (Step 1 of 3)</text>
-    <text x="0" y="75" fill="#6b7280">[12:04:12] <tspan fill="#8b5cf6">ENV</tspan>   Loading Code Snippet: <tspan fill="#fbbf24">"find_second_largest"</tspan></text>
+    <text x="0" y="35" class="text-mute" fill="#6b7280">[12:04:11] <tspan fill="#60a5fa">INFO</tspan>  Spinning up OpenEnv code-review environment...</text>
+    <text x="0" y="55" class="text-mute" fill="#6b7280">[12:04:12] <tspan fill="#60a5fa">INFO</tspan>  Observation Space loaded (Step 1 of 3)</text>
+    <text x="0" y="75" class="text-mute" fill="#6b7280">[12:04:12] <tspan fill="#8b5cf6">ENV</tspan>   Loading Code Snippet: <tspan fill="#fbbf24">"find_second_largest"</tspan></text>
     
     <!-- Code block visualization -->
     <text x="20" y="95" fill="#4b5563">105 | def find_second_largest(numbers):</text>
@@ -46,14 +55,14 @@
     <text x="20" y="140" fill="#f87171">108 |     return numbers[1]  # &lt;-- LOGIC BUG: Returns 2nd smallest</text>
 
     <!-- Agent analysis -->
-    <text x="0" y="165" fill="#6b7280">[12:04:13] <tspan fill="#10b981">AGENT</tspan> Policy evaluation running...</text>
-    <text x="0" y="185" fill="#6b7280">[12:04:14] <tspan fill="#10b981">AGENT</tspan> Identified issues:</text>
+    <text x="0" y="165" class="text-mute" fill="#6b7280">[12:04:13] <tspan fill="#10b981">AGENT</tspan> Policy evaluation running...</text>
+    <text x="0" y="185" class="text-mute" fill="#6b7280">[12:04:14] <tspan fill="#10b981">AGENT</tspan> Identified issues:</text>
     <text x="20" y="200" fill="#fb7185">↳ Critical: Input mutation side effect at line 107.</text>
     <text x="20" y="215" fill="#fb7185">↳ High: Logic flaw at line 108. Sorting asc and returning index 1 is 2nd smallest.</text>
     
     <!-- Action and result -->
-    <text x="0" y="235" fill="#6b7280">[12:04:15] <tspan fill="#34d399">ACTION</tspan> Action emitted. Step completed.</text>
-    <text x="0" y="255" fill="#6b7280">[12:04:15] <tspan fill="#a7f3d0">REWARD</tspan> Reward: <tspan fill="#34d399" font-weight="bold" filter="url(#text-glow)">+1.0</tspan> (Optimal policy matched test oracle)</text>
+    <text x="0" y="235" class="text-mute" fill="#6b7280">[12:04:15] <tspan fill="#34d399">ACTION</tspan> Action emitted. Step completed.</text>
+    <text x="0" y="255" class="text-mute" fill="#6b7280">[12:04:15] <tspan fill="#a7f3d0">REWARD</tspan> Reward: <tspan fill="#34d399" font-weight="bold" filter="url(#text-glow)">+1.0</tspan> (Optimal policy matched test oracle)</text>
   </g>
 
   <!-- Cursor -->

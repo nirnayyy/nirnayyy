@@ -200,15 +200,15 @@ engineering_focus:
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=050706" alt="GitHub"/>
   </a>
   &nbsp;
-  <a href="https://linkedin.com/in/nirnay-pratap-singh-05244129b" target="_blank">
+  <a href="https://linkedin.com/in/nirnay-pratap-singh" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=050706" alt="LinkedIn"/>
   </a>
   &nbsp;
-  <a href="mailto:nirnayyysingh@gmail.com">
+  <a href="mailto:nirnaysingh7@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=050706" alt="Email"/>
   </a>
   &nbsp;
-  <a href="https://nirnayyy-portfolio.vercel.app" target="_blank">
+  <a href="https://nirnayyy-portfolio.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-10b981?style=for-the-badge&logo=vercel&logoColor=white&labelColor=050706" alt="Portfolio"/>
   </a>
   

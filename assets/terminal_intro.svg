@@ -10,28 +10,37 @@
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
+    <style>
+      @media (prefers-color-scheme: light) {
+        .window-frame { fill: #f9fafb !important; stroke: #e5e7eb !important; }
+        .window-header { fill: #f3f4f6 !important; }
+        .window-title { fill: #9ca3af !important; }
+        .text-line { fill: #1f2937 !important; }
+        .text-mute { fill: #6b7280 !important; }
+      }
+    </style>
   </defs>
 
   <!-- Window Shell -->
-  <rect x="10" y="10" width="580" height="160" rx="8" fill="#050706" stroke="#1f2937" stroke-width="1.2" filter="url(#shadow)" />
+  <rect x="10" y="10" width="580" height="160" rx="8" class="window-frame" fill="#050706" stroke="#1f2937" stroke-width="1.2" filter="url(#shadow)" />
 
   <!-- Header -->
-  <path d="M 10,18 A 8,8 0 0,1 18,10 L 582,10 A 8,8 0 0,1 590,18 L 590,38 L 10,38 Z" fill="#0f1712" stroke="#1f2937" stroke-dasharray="0 0 580 0" stroke-width="1.2" />
+  <path d="M 10,18 A 8,8 0 0,1 18,10 L 582,10 A 8,8 0 0,1 590,18 L 590,38 L 10,38 Z" class="window-header" fill="#0f1712" stroke="#1f2937" stroke-dasharray="0 0 580 0" stroke-width="1.2" />
 
   <!-- Windows controls -->
   <circle cx="28" cy="24" r="4.5" fill="#f87171" />
   <circle cx="42" cy="24" r="4.5" fill="#fbbf24" />
   <circle cx="56" cy="24" r="4.5" fill="#34d399" />
 
-  <text x="300" y="27" fill="#6b7280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="bold" text-anchor="middle">nirnayyy ~ shell_init.sh</text>
+  <text x="300" y="27" class="window-title" fill="#6b7280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="bold" text-anchor="middle">nirnayyy ~ shell_init.sh</text>
 
   <!-- Content -->
   <g transform="translate(25, 55)" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e5e7eb" xml:space="preserve">
-    <text x="0" y="15" fill="#9ca3af">$ <tspan fill="#34d399">initialize</tspan> --agent=nirnayyy --profile=active</text>
+    <text x="0" y="15" class="text-line" fill="#9ca3af">$ <tspan fill="#34d399">initialize</tspan> --agent=nirnayyy --profile=active</text>
     
-    <text x="0" y="35" fill="#6b7280">[BOOT] Initializing AI Systems Developer environment...</text>
-    <text x="0" y="55" fill="#6b7280">[DB]   RAG Cosine-Similarity indexes: <tspan fill="#60a5fa">pgvector_active</tspan></text>
-    <text x="0" y="75" fill="#6b7280">[NET]  Pipeline clusters: <tspan fill="#8b5cf6">VeriPolicy</tspan> | <tspan fill="#8b5cf6">openenv-code-review</tspan></text>
-    <text x="0" y="95" fill="#6b7280">[SYS]  Status: <tspan fill="#10b981" font-weight="bold" filter="url(#glow)">ONLINE</tspan> | Identity: <tspan fill="#a7f3d0">PRODUCT_BUILDER</tspan></text>
+    <text x="0" y="35" class="text-mute" fill="#6b7280">[BOOT] Initializing AI Systems Developer environment...</text>
+    <text x="0" y="55" class="text-mute" fill="#6b7280">[DB]   RAG Cosine-Similarity indexes: <tspan fill="#60a5fa">pgvector_active</tspan></text>
+    <text x="0" y="75" class="text-mute" fill="#6b7280">[NET]  Pipeline clusters: <tspan fill="#8b5cf6">VeriPolicy</tspan> | <tspan fill="#8b5cf6">openenv-code-review</tspan></text>
+    <text x="0" y="95" class="text-mute" fill="#6b7280">[SYS]  Status: <tspan fill="#10b981" font-weight="bold" filter="url(#glow)">ONLINE</tspan> | Identity: <tspan fill="#a7f3d0">PRODUCT_BUILDER</tspan></text>
   </g>
 </svg>

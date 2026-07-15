@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 10" width="100%" height="100%">
+  <defs>
+    <!-- Line Gradient -->
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0" />
+      <stop offset="15%" stop-color="#10b981" stop-opacity="0.05" />
+      <stop offset="50%" stop-color="#10b981" stop-opacity="0.8" />
+      <stop offset="85%" stop-color="#10b981" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Diamond Glow Filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Horizontal Line -->
+  <line x1="0" y1="5" x2="800" y2="5" stroke="url(#line-grad)" stroke-width="2" />
+
+  <!-- Center Diamond -->
+  <g transform="translate(400, 5)">
+    <rect x="-3" y="-3" width="6" height="6" rx="1" fill="#10b981" transform="rotate(45)" filter="url(#glow)" />
+    <rect x="-1.5" y="-1.5" width="3" height="3" rx="0.5" fill="#ffffff" transform="rotate(45)" />
+  </g>
+</svg>

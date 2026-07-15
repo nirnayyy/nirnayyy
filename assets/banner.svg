@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bg-grad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#0a0f0d" />
+      <stop offset="60%" stop-color="#030504" />
+      <stop offset="100%" stop-color="#000000" />
+    </radialGradient>
+
+    <!-- Accent Glow Gradient -->
+    <linearGradient id="glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#059669" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#10b981" stroke-width="1" stroke-opacity="0.07" />
+      <circle cx="40" cy="0" r="1.5" fill="#10b981" fill-opacity="0.15" />
+    </pattern>
+
+    <!-- Text Glow Filter -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="subtle-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg-grad)" />
+
+  <!-- Grid Overlay -->
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- Decorative Circuit/Glow Shapes -->
+  <!-- Top Right Glow -->
+  <circle cx="700" cy="80" r="120" fill="url(#glow-grad)" filter="blur(20px)" opacity="0.6" />
+  
+  <!-- Circuit Lines -->
+  <g stroke="#10b981" stroke-width="1.5" fill="none" opacity="0.3">
+    <!-- Path 1 -->
+    <path d="M 500,20 L 580,20 L 610,50 L 750,50" />
+    <circle cx="750" cy="50" r="3" fill="#10b981" />
+    <circle cx="500" cy="20" r="3" fill="#10b981" />
+    
+    <!-- Path 2 -->
+    <path d="M 620,120 L 660,160 L 780,160" />
+    <circle cx="780" cy="160" r="3" fill="#10b981" />
+    
+    <!-- Path 3 (Long Connection) -->
+    <path d="M 450,220 L 530,220 L 560,190 L 680,190 L 710,220 L 750,220" />
+    <circle cx="450" cy="220" r="3" fill="#10b981" />
+    <circle cx="750" cy="220" r="3" fill="#10b981" />
+  </g>
+
+  <!-- Left Accent Bar -->
+  <rect x="0" y="0" width="6" height="260" fill="#10b981" filter="url(#subtle-glow)" />
+
+  <!-- Brand Typography -->
+  <g transform="translate(60, 110)">
+    <!-- Brand / Role Label -->
+    <text x="0" y="-30" fill="#10b981" font-family="'Courier New', Courier, monospace" font-weight="bold" font-size="12" letter-spacing="3" filter="url(#subtle-glow)">
+      // FORESIGHT_INTELLIGENCE_INIT
+    </text>
+
+    <!-- Name -->
+    <text x="0" y="15" fill="#ffffff" font-family="'Outfit', 'Inter', -apple-system, sans-serif" font-weight="800" font-size="38" letter-spacing="-0.5">
+      NIRNAY PRATAP SINGH
+    </text>
+
+    <!-- Subtitle / Role -->
+    <text x="0" y="45" fill="#9ca3af" font-family="'Inter', -apple-system, sans-serif" font-weight="500" font-size="16" letter-spacing="0.5">
+      AI Systems &amp; Cloud Product Engineer
+    </text>
+
+    <!-- Tagline / Manifesto Statement -->
+    <text x="0" y="75" fill="#6b7280" font-family="'Inter', -apple-system, sans-serif" font-weight="400" font-size="12" letter-spacing="0.2">
+      Building autonomous agent environments, predictive data systems, and cloud infrastructure.
+    </text>
+  </g>
+
+  <!-- Animated Code Snippet Mockup (Right Side) -->
+  <g transform="translate(480, 70)" opacity="0.8">
+    <!-- Window Frame -->
+    <rect x="0" y="0" width="260" height="120" rx="6" fill="#080c0a" stroke="#1f2937" stroke-width="1" />
+    <rect x="0" y="0" width="260" height="24" rx="6" fill="#030504" />
+    
+    <!-- Window Dots -->
+    <circle cx="12" cy="12" r="3.5" fill="#ef4444" />
+    <circle cx="24" cy="12" r="3.5" fill="#f59e0b" />
+    <circle cx="36" cy="12" r="3.5" fill="#10b981" />
+    <text x="130" y="16" fill="#4b5563" font-family="monospace" font-size="9" text-anchor="middle">agent_engine.py</text>
+
+    <!-- Code Content -->
+    <g font-family="'Courier New', Courier, monospace" font-size="10" xml:space="preserve">
+      <text x="15" y="45" fill="#6b7280">1</text>
+      <text x="30" y="45" fill="#10b981">import</text>
+      <text x="75" y="45" fill="#ffffff">openenv as oe</text>
+
+      <text x="15" y="60" fill="#6b7280">2</text>
+      <text x="30" y="60" fill="#10b981">class</text>
+      <text x="70" y="60" fill="#3b82f6">GeopoliticalAgent</text>
+      <text x="180" y="60" fill="#ffffff">(oe.Agent):</text>
+
+      <text x="15" y="75" fill="#6b7280">3</text>
+      <text x="45" y="75" fill="#10b981">def</text>
+      <text x="70" y="75" fill="#eab308">simulate_policy</text>
+      <text x="175" y="75" fill="#ffffff">(self, memo):</text>
+
+      <text x="15" y="90" fill="#6b7280">4</text>
+      <text x="60" y="90" fill="#f43f5e">return</text>
+      <text x="105" y="90" fill="#3b82f6">self</text>
+      <text x="129" y="90" fill="#ffffff">.RAG.retrieve(memo)</text>
+      
+      <text x="15" y="105" fill="#6b7280">5</text>
+      <text x="30" y="105" fill="#10b981"># System status: OPTIMAL_RUN</text>
+    </g>
+    
+    <!-- Cursor blinking simulation -->
+    <rect x="248" y="81" width="6" height="10" fill="#10b981" filter="url(#subtle-glow)">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+    </rect>
+  </g>
+</svg>

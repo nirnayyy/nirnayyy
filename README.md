@@ -1,8 +1,7 @@
 <div align="center">
   
-  
-  <!-- 🎯 ASCII MOSAIC BANNER — Vignette Bloom Effect -->
-  <img src="assets/ascii-mosaic-banner.png" alt="Nirnay Pratap Singh - AI Systems & Cloud Product Engineer" width="100%"/>
+  <!-- 🎯 BRAND HEADER BANNER -->
+  <img src="assets/banner.svg" alt="Nirnay Pratap Singh - AI Systems &amp; Cloud Product Engineer" width="100%"/>
   
   <br/>
   

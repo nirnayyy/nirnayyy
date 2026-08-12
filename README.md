@@ -265,16 +265,55 @@ Architected lightweight serverless routing on Vercel with responsive mobile-firs
 <div align="center">
 
 #### ☁️ Amazon Web Services (AWS)
-<img src="https://img.shields.io/badge/AWS-Certified%20Cloud%20Practitioner-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS Certification" />
+<a href="certificates/AWS_Academy_Graduate___Cloud_Foundations___Training_Badge_Badge20260715-20-w56odr.pdf">
+  <img src="https://img.shields.io/badge/AWS_Academy-Cloud_Foundations-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS Cloud Foundations" />
+</a>
+&nbsp;
+<a href="certificates/AWS_Academy_Graduate___Cloud_Security_Foundations___Training_Badge_Badge20260715-20-x3q2vd.pdf">
+  <img src="https://img.shields.io/badge/AWS_Academy-Cloud_Security_Foundations-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS Cloud Security" />
+</a>
+&nbsp;
+<a href="certificates/cloud_certi_2.pdf">
+  <img src="https://img.shields.io/badge/AWS_Cloud-Cloud_Architecture-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS Cloud Architecture" />
+</a>
 
-#### 🔴 Oracle
-<img src="https://img.shields.io/badge/Oracle-Cloud%20Infrastructure%20Certified-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle Certification" />
+<br/><br/>
 
-#### 🎓 NPTEL / MHRD
-<img src="https://img.shields.io/badge/NPTEL-Elite%20Certification%20in%20Data%20Structures%20%26%20Algorithms-7c3aed?style=flat-square&logo=googlescholar&logoColor=white" alt="NPTEL Certification" />
+#### 🔷 Microsoft & LinkedIn
+<a href="certificates/CertificateOfCompletion_Career%20Essentials%20in%20Generative%20AI%20by%20Microsoft%20and%20LinkedIn.pdf">
+  <img src="https://img.shields.io/badge/Microsoft_%26_LinkedIn-Career_Essentials_in_Generative_AI-0A66C2?style=flat-square&logo=microsoft&logoColor=white" alt="Career Essentials in GenAI" />
+</a>
+&nbsp;
+<a href="certificates/CertificateOfCompletion_Learning%20Microsoft%20365%20Copilot%20for%20Work%202025.pdf">
+  <img src="https://img.shields.io/badge/Microsoft_365-Copilot_for_Work_2025-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft 365 Copilot" />
+</a>
+<br/><br/>
+<a href="certificates/CertificateOfCompletion_What%20Is%20Generative%20AI.pdf">
+  <img src="https://img.shields.io/badge/LinkedIn_Learning-What_Is_Generative_AI-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="What Is Generative AI" />
+</a>
+&nbsp;
+<a href="certificates/CertificateOfCompletion_Your%20Top%20AI%20Questions%20Answered%20AI%20Literacy%20for%20Everyone.pdf">
+  <img src="https://img.shields.io/badge/LinkedIn_Learning-AI_Literacy_for_Everyone-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="AI Literacy for Everyone" />
+</a>
 
-#### 🌐 Cisco
-<img src="https://img.shields.io/badge/Cisco-Cybersecurity%20%26%20Networking%20Essentials-1BA0D7?style=flat-square&logo=cisco&logoColor=white" alt="Cisco Certification" />
+<br/><br/>
+
+#### 🎓 Coursera, NPTEL & Academic
+<a href="https://coursera.org/share/2d0088efe97dc4b52c9c43fc3014dc08">
+  <img src="https://img.shields.io/badge/Coursera-Operating_Systems-0056D2?style=flat-square&logo=coursera&logoColor=white" alt="Coursera OS" />
+</a>
+&nbsp;
+<a href="certificates/CN.pdf">
+  <img src="https://img.shields.io/badge/Academic-Computer_Networks-7c3aed?style=flat-square&logo=academicons&logoColor=white" alt="Computer Networks" />
+</a>
+&nbsp;
+<a href="certificates/s24cseu1368_cloud(151875).pdf">
+  <img src="https://img.shields.io/badge/NPTEL-Cloud_Computing-7c3aed?style=flat-square&logo=googlescholar&logoColor=white" alt="NPTEL Cloud Computing" />
+</a>
+&nbsp;
+<a href="certificates/micro.pdf">
+  <img src="https://img.shields.io/badge/Certification-Microservices_Architecture-6366f1?style=flat-square&logo=docker&logoColor=white" alt="Microservices Architecture" />
+</a>
 
 </div>
 

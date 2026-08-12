@@ -7,7 +7,7 @@
 
   <!-- 1b. Typing SVG Animation -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=AI+Systems+%26+Full-Stack+Software+Engineer;Building+Autonomous+Agents+%26+RAG+Architectures;High-Performance+Distributed+Microservices;Product+Engineer+%26+Open+Source+Contributor" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=AI+Systems%2C+GenAI+%26+Cloud+Developer;Building+Autonomous+Agents+%26+RAG+Architectures;High-Performance+Cloud+Microservices;Product+Engineer+%26+Open+Source+Contributor" alt="Typing SVG" />
   </a>
 
   <br/><br/>
@@ -63,18 +63,18 @@
 <td width="60%" valign="top">
 
 ### ⚡ Professional Biography
-I am a **Software Engineer & AI Systems Architect** driven by a product engineering mindset. My work sits at the intersection of high-performance distributed backends, autonomous agent workflows, and retrieval-augmented generation (RAG) architectures.
+I am an **AI Systems, GenAI & Cloud Developer** driven by a product engineering mindset. My work sits at the intersection of high-performance cloud backends, autonomous agent workflows, and retrieval-augmented generation (RAG) architectures.
 
 * **Software Engineering:** Focused on building fault-tolerant backend services, memory-efficient data structures, and production-ready RESTful/gRPC microservices.
 * **AI/ML Systems:** Specialized in reinforcement learning environments, hybrid vector search pipelines, multi-agent collaboration frameworks, and LLM fine-tuning.
-* **Full-Stack Mastery:** Capable of owning end-to-end features—from sleek React/Next.js dynamic interfaces to robust PostgreSQL/Redis database layers.
+* **Cloud & GenAI Infrastructure:** Capable of owning end-to-end cloud pipelines—from microservices and API gateways to vector database clusters and deployment automation.
 * **Product Engineering Mindset:** Designing for measurable business impact, low latency, enterprise security, and long-term maintainability.
 
 </td>
 <td width="40%" valign="top">
 
 ### 🎯 Open To
-- 🚀 **Full-Time Software Engineering Roles** (AI/ML Backend, Systems & Full-Stack)
+- 🚀 **Full-Time AI Systems & Cloud Roles** (AI/GenAI Engineer, Cloud Developer, Systems Architect)
 - 🤝 **Open-Source Collaborations & Core Architecture Contributions**
 - 💡 **Technical Advisory & High-Scale AI Infrastructure Consulting**
 
@@ -226,11 +226,11 @@ Architected lightweight serverless routing on Vercel with responsive mobile-firs
 
 ### 🛠️ Founder & Lead Architect | Startup / Tech Innovation Lab
 **2024 – Present**
-* Architecting scalable full-stack applications and AI-driven platforms from zero to production.
+* Architecting scalable AI systems, GenAI architectures, and cloud platforms from zero to production.
 * Built VeriPolicy, an AI scenario engine processing multi-source news data with sub-second vector search.
 * Orchestrated containerized microservice deployments on AWS and Vercel using CI/CD pipelines.
 
-`Python` `Next.js` `FastAPI` `Supabase` `Docker` `AWS`
+`Python` `FastAPI` `Supabase` `Docker` `AWS` `GenAI`
 
 <br/>
 
@@ -240,7 +240,7 @@ Architected lightweight serverless routing on Vercel with responsive mobile-firs
 * Contributed to high-performance open-source repositories and agentic frameworks.
 * Standardized testing pipelines, linting rules, and modular software design principles.
 
-`Python` `Gymnasium` `PyTorch` `TypeScript` `React` `Git`
+`Python` `Gymnasium` `PyTorch` `TypeScript` `Git` `Cloud`
 
 <hr />
 
@@ -251,7 +251,7 @@ Architected lightweight serverless routing on Vercel with responsive mobile-firs
 
 | Recognition | Details |
 | :--- | :--- |
-| 🥇 **Hackathon Winner / Finalist** | Top placement in regional AI & Full-Stack Development Hackathons for novel LLM implementations |
+| 🥇 **Hackathon Winner / Finalist** | Top placement in regional AI, GenAI & Cloud Development Hackathons for novel LLM implementations |
 | 📜 **Academic Excellence** | Maintained high academic standing in B.Tech Computer Science & Engineering |
 | 🚀 **Open Source Contributor** | Creator of high-visibility open source tools including `openenv-code-review` and `VeriPolicy` |
 
@@ -374,7 +374,7 @@ current_focus:
     - "Zero-Knowledge Proofs for Private AI Computing"
     - "Distributed Consensus Protocols & Edge AI"
   open_to:
-    - "Senior / Staff Software Engineering Roles"
+    - "AI Systems, GenAI & Cloud Developer Roles"
     - "AI / ML Research Collaborations & Open Source Advisory"
 ```
 

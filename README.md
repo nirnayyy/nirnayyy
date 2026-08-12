@@ -324,7 +324,7 @@ Architected lightweight serverless routing on Vercel with responsive mobile-firs
 
 <div align="center">
 
-<a href="https://leetcode.com/u/nirnayyy/" target="_blank">
+<a href="https://leetcode.com/u/Nirnaysingh/" target="_blank">
   <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
 </a>
 &nbsp;&nbsp;
